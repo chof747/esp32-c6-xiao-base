@@ -1,15 +1,9 @@
-# kicad-project-template
-Template for a KiCad Project 
+# Base battery board setup for a esp32-c6 xiao
 
-This project provides an empty KiCad project with all the settings for 
-a JCLPCB project.
+Use this project to create an esp32-c6 module with battery power using the battery connectors on the xiao chip.
 
-The project template is setup for KiCad 7.x
+## Contains
 
-## Setup 
-
-run the ```initialize.sh``` script which does the following:
-
-  - Renaming the project files from KiCad
-  - Add the template repository as another upstream
-  - Updating this ReadMe
+- ESP32 C6 Xiao module
+- 2.54 space battery pin connector
+- Voltage sensing
